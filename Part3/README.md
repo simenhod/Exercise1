@@ -8,7 +8,7 @@ When answering the questions, remember to use all the resources at your disposal
  ### What is concurrency? What is parallelism? What's the difference?
  > Concurrency is when two or more tasks can start, run, and complete in overlapping time periods. It doesn't necessarily mean they'll ever both be running at the same instant. For example, multitasking on a single-core machine.
 
-Parallelism is when tasks literally run at the same time, e.g., on a multicore processor.
+ > Parallelism is when tasks literally run at the same time, e.g., on a multicore processor.
  
  ### Why have machines become increasingly multicore in the past decade?
  > *Your answer here*
