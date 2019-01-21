@@ -11,7 +11,7 @@ When answering the questions, remember to use all the resources at your disposal
  > Parallelism is when tasks literally run at the same time, e.g., on a multicore processor.
  
  ### Why have machines become increasingly multicore in the past decade?
- > Because it have become difficult to increase the number of transistors in a CPU. Multicore helps increasing the performance and efficiency of the CPU, by doing several prosesses at the sametime by using threads. 
+ > Because it have become difficult to increase the number of transistors in a CPU and the CPU clockspeed. Multicore helps increasing the performance and efficiency of the CPU, by doing several prosesses at the sametime by using threads. 
  
  ### What kinds of problems motivates the need for concurrent execution?
  (Or phrased differently: What problems do concurrency help in solving?)
