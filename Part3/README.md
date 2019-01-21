@@ -6,10 +6,12 @@ To complete this exercise you will have to use git. Create one or several commit
 When answering the questions, remember to use all the resources at your disposal. Asking the internet isn't a form of "cheating", it's a way of learning.
 
  ### What is concurrency? What is parallelism? What's the difference?
- > *Your answer here*
+ > Concurrency is when two or more tasks can start, run, and complete in overlapping time periods. It doesn't necessarily mean they'll ever both be running at the same instant. For example, multitasking on a single-core machine.
+
+ > Parallelism is when tasks literally run at the same time, e.g., on a multicore processor.
  
  ### Why have machines become increasingly multicore in the past decade?
- > *Your answer here*
+ > Because it have become difficult to increase the number of transistors in a CPU. Multicore helps increasing the performance and efficiency of the CPU, by doing several prosesses at the sametime by using threads. 
  
  ### What kinds of problems motivates the need for concurrent execution?
  (Or phrased differently: What problems do concurrency help in solving?)
