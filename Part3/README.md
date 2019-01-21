@@ -28,13 +28,13 @@ When answering the questions, remember to use all the resources at your disposal
 
 
  ### Which one of these do `pthread_create()` (C/POSIX), `threading.Thread()` (Python), `go` (Go) create?
- > *Your answer here*
+ > All the above methods create a thread
  
  ### How does pythons Global Interpreter Lock (GIL) influence the way a python Thread behaves?
- > *Your answer here*
+ > GIL prevents concurrent execution of threads because the interpreter is not implemented in a thread-safe manner
  
  ### With this in mind: What is the workaround for the GIL (Hint: it's another module)?
- > *Your answer here*
+ > You can run multiple python interpreters separately to get concurrent processes. Resource sharing can then be implemented with sockets
  
  ### What does `func GOMAXPROCS(n int) int` change? 
- > *Your answer here*
+ > GOMAXPROCS changes the maximum number of cpus the process can use.
