@@ -22,8 +22,11 @@ When answering the questions, remember to use all the resources at your disposal
  > it depends on the task. Concurrent programs may require more work when writing the code, but gives a reliable output
  
  ### What are the differences between processes, threads, green threads, and coroutines?
- > *Your answer here*
- 
+ > Fibers, lightweight threads, and green threads are other names for coroutines or coroutine-like things. They may sometimes look (typically on purpose) more like operating system threads in the programming language, but they do not run in parallel like real threads and work instead like coroutines.
+
+ > With threads, the operating system switches running threads preemptively according to its scheduler, which is an algorithm in the operating system kernel. With coroutines, the programmer and programming language determine when to switch coroutines; in other words, tasks are cooperatively multitasked by pausing and resuming functions at set points, typically (but not necessarily) within a single thread.
+
+
  ### Which one of these do `pthread_create()` (C/POSIX), `threading.Thread()` (Python), `go` (Go) create?
  > *Your answer here*
  
